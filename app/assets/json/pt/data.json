@@ -1,0 +1,544 @@
+{
+  "profile": {
+    "greeting": "Olá!",
+    "name": "Eu sou Jean Paul",
+    "role": "Mobile Developer",
+    "description": "com {years}+ anos criando soluções mobile e web intuitivas e seguras. Especializado em interfaces responsivas, Design Systems escaláveis e experiência do usuário.",
+    "username": "origemjhanpoll",
+    "tags": [
+      "29 y.o",
+      "Flutter",
+      "Dart",
+      "React Native",
+      "TypeScript",
+      "Android",
+      "iOS",
+      "Web",
+      "ReactJs",
+      "JavaScript"
+    ],
+    "skillsTitle": "Habilidades",
+    "skills": [
+      {
+        "title": "Linguagens e Core",
+        "skills": [
+          "TypeScript",
+          "JavaScript",
+          "Dart",
+          "Kotlin",
+          "Swift",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "title": "Frameworks e Plataformas",
+        "skills": [
+          "Flutter",
+          "React Native",
+          "Android",
+          "iOS",
+          "Web",
+          "ReactJs"
+        ]
+      },
+      {
+        "title": "Arquitetura e Padrões",
+        "skills": [
+          "Design Systems escaláveis",
+          "Atomic Design",
+          "Clean Architecture",
+          "MVVM (Model-View-ViewModel)",
+          "Bloc / Cubit",
+          "Provider",
+          "Princípios SOLID",
+          "Componentização de interfaces",
+          "Tokens de Design"
+        ]
+      },
+      {
+        "title": "Ferramentas e Infraestrutura",
+        "skills": [
+          "Firebase (Auth, Database, Analytics, Push Notifications)",
+          "Codemagic",
+          "Datadog",
+          "Crashlytics",
+          "Git",
+          "GitHub",
+          "GitLab",
+          "Bitbucket",
+          "Azure DevOps",
+          "Jira / Atlassian",
+          "Google Cloud Platform (GCP)",
+          "Figma",
+          "Pacotes Adobe (After Effects, Premiere Pro)"
+        ]
+      },
+      {
+        "title": "Engenharia e DevOps",
+        "skills": [
+          "CI/CD",
+          "Performance Optimization",
+          "Segurança de dados e proteção contra vazamentos",
+          "Autenticidade de aplicações",
+          "Desenvolvimento Cross-platform",
+          "Integração de APIs e sistemas de pagamento (PIX, Crédito, Boletos)",
+          "Persistência de dados offline (SharedPreferences / Local Storage)",
+          "WebSockets / Conexões em tempo real",
+          "GraphQL"
+        ]
+      },
+      {
+        "title": "Design de Experiência e Produto (UI/UX)",
+        "skills": [
+          "Product Design",
+          "UX/UI Design",
+          "Interfaces Responsivas",
+          "Motion Design",
+          "Animações e Micro interações",
+          "Prototipagem de baixa e alta fidelidade"
+        ]
+      },
+      {
+        "title": "Gestão e Negócios",
+        "skills": [
+          "Gestão de Projetos",
+          "Gestão de Funcionários",
+          "Gamificação de aplicativos",
+          "Tomada de Decisão Estratégica",
+          "Rotinas de Varejo, Atacado e Logística"
+        ]
+      }
+    ],
+    "photo": "",
+    "buttons": [
+      {
+        "text": "Entre em contato",
+        "url": "https://api.whatsapp.com/send/?phone=5598991391108"
+      },
+      {
+        "text": "CV",
+        "url": "https://drive.google.com/file/d/1Nm4ugeeGamnlYLSeX8S1lXnqWI1Xck7p/view?usp=sharing"
+      }
+    ],
+    "localTimeLabel": "Horário Local",
+    "address": "São Luís - MA, Brasil"
+  },
+  "main": {
+    "url": "https://www.pexels.com/pt-br/download/video/12978459/",
+    "title": "Tudo o que imaginar, você pode construir.",
+    "description": "Da primeira linha de código até o topo das lojas de aplicativos, transformo ideias audaciosas em experiências mobile de alto impacto.",
+    "buttonText": ""
+  },
+  "experience": {
+    "title": "EXPERIÊNCIAS",
+    "yearLabel": "ano",
+    "yearsLabel": "anos",
+    "items": [
+      {
+        "year": 2015,
+        "period": "2015 – 2017",
+        "company": "Grupo Mateus",
+        "url": "https://www.grupomateus.com.br",
+        "logo": "https://www.google.com/s2/favicons?domain=grupomateus.com.br&sz=128",
+        "roles": [
+          {
+            "title": "Aprendiz",
+            "period": "2015 – 2016"
+          },
+          {
+            "title": "Product Designer",
+            "period": "2016 – 2017"
+          }
+        ]
+      },
+      {
+        "year": 2017,
+        "period": "2017 – 2021",
+        "company": "Pulse",
+        "url": "https://www.linkedin.com/company/pulseoficial/",
+        "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQHxMkWtbZypVA/company-logo_200_200/company-logo_200_200/0/1704803475942?e=2147483647&v=beta&t=pjU2Qkt7l9ZnaJteQikXp8E4pA2EGw33QnF227sZt6I",
+        "roles": [
+          {
+            "title": "Product Designer (UI/UX)",
+            "period": "2017 – 2019"
+          },
+          {
+            "title": "Mobile Engineer (React Native)",
+            "period": "2019 – 2021"
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "period": "2021 – 2024",
+        "company": "Gupy",
+        "url": "https://www.gupy.io",
+        "logo": "https://www.google.com/s2/favicons?domain=gupy.io&sz=128",
+        "roles": [
+          {
+            "title": "Mobile Engineer (Flutter)",
+            "period": "2021 – 2024"
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "period": "2025 – Atual",
+        "company": "Brasil Card",
+        "companyFull": "Brasil Card Instituição de Pagamentos",
+        "current": true,
+        "url": "https://www.brasilcarddigital.com.br",
+        "logo": "https://play-lh.googleusercontent.com/-rryDhw7Trvu2vNujRvMBCYwBweTPc2tn3E2WRrC1YDuGM0DFiRiicyywX5m98xTggCpdsdLQkdNi2177G5dOXE=w480-h960-rw",
+        "roles": [
+          {
+            "title": "Mobile Engineer (Flutter)",
+            "period": "2025 – Atual"
+          }
+        ]
+      }
+    ]
+  },
+  "about": {
+    "title": "Um pouco sobre mim.",
+    "history_label": "História",
+    "history": "Sou especializado em desenvolvimento mobile, com mais de 6 anos de experiência criando soluções robustas, intuitivas e seguras para Android, iOS e web. Tenho domínio de Flutter, Dart, React Native, React, JavaScript e TypeScript, além de experiência com ferramentas como Firebase, Datadog e Codemagic. Me destaco na criação de interfaces responsivas, aplicação de Design Systems escaláveis e foco constante na experiência do usuário.\n\nAo longo da minha trajetória, atuei diretamente na melhoria de performance, organização de código, segurança de dados e componentização de interfaces em diversos projetos mobile e web. Tenho também forte atuação em UX/UI, motion design e prototipagem com Figma e Adobe Suite, utilizando animações e micro interações para tornar produtos mais envolventes e agradáveis de usar.",
+    "technologies_label": "Tecnologias",
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "React Native",
+      "TypeScript",
+      "Android",
+      "iOS",
+      "ReactJs",
+      "JavaScript"
+    ],
+    "others_label": "Outros",
+    "others": [
+      "Bitbucket",
+      "CI/CD",
+      "Codemagic",
+      "CSS",
+      "Figma",
+      "Firebase",
+      "Git",
+      "Google Cloud",
+      "GraphQL",
+      "HTML",
+      "Jira"
+    ]
+  },
+  "projects": {
+    "professional": {
+      "title": "APPS",
+      "items": [
+        {
+          "title": "Brasil Card Digital",
+          "description": "Aplicativo de banco digital com cartões Private Label customizados e cartão de crédito BrasilCard.",
+          "thumbnail": "https://play-lh.googleusercontent.com/kqDZAOLduP1akYNUsRPMIFN1AnCck2v2k2phWpPgvMOdMOO_TxIYc31x7Id5gGlgKOI",
+          "technologies": [
+            "Flutter",
+            "Dart",
+            "Firebase",
+            "Codemagic"
+          ],
+          "images": [
+            "https://play-lh.googleusercontent.com/1tYBASzpRyGctM0kcRCaAwQ3V9Qx_Mf-YVJ_ZhWQfrSi-52dNXHTURLZ2z3tm5WC__au",
+            "https://play-lh.googleusercontent.com/SPMGYAN8H6S2QNmYCUZdNQFi8pdWtXbEiYl-0QyUg1VeQiT9athOiq24SNdsSujQ1A",
+            "https://play-lh.googleusercontent.com/SYhepOiQ556VYdKyqHSuW3CD-hQaBBqdm3a4wxhwQFog3-JCtrxEVQO-JqnsJmg0jVM"
+          ],
+          "url": "https://www.brasilcarddigital.com.br",
+          "github": null,
+          "playstore": "https://play.google.com/store/apps/details?id=br.com.brasilcard.app_banco_digital",
+          "appstore": "https://apps.apple.com/br/app/brasilcard-digital/id1593431800?platform=iphone",
+          "year": 2025,
+          "types": [
+            "Mobile"
+          ]
+        },
+        {
+          "title": "Gupy EduCorp",
+          "description": "Plataforma de educação corporativa com gamificação, ranking, pontos e quiz interativo para treinamento de colaboradores.",
+          "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/5c/d2/575cd282-7fea-b019-2566-4edbc5375a59/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/217x0w.webp",
+          "technologies": [
+            "Flutter",
+            "Dart",
+            "Firebase",
+            "Codemagic"
+          ],
+          "images": [
+            "https://play-lh.googleusercontent.com/Vey5GE62pfmHe9f7yOgfLwg-1ZFVx5CbP0rz5xcJ52DkSwR1GRNBkZkMUFqsDEFW0pU",
+            "https://play-lh.googleusercontent.com/kF08zTJcjcpWcff14M7V6mK2-vCwdAWUi5B_pzVRzeZxF4i7-6K7oIWIz9Q9tGuAuzo",
+            "https://play-lh.googleusercontent.com/Fj4zrwjdBzRjVFG7Vbnnlz-WW9GBlQBRPxp7oRnu2Ttpu-c5j4Rs3OvqLFlNqrEFPtM"
+          ],
+          "url": "https://www.gupy.io/plataforma-de-educacao-corporativa",
+          "github": null,
+          "playstore": "https://play.google.com/store/apps/details?id=com.workeduc.appv4&hl",
+          "appstore": "https://apps.apple.com/bo/app/gupy-educorp/id1287059492?platform=iphone",
+          "year": 2021,
+          "types": [
+            "Mobile",
+            "Web"
+          ]
+        },
+        {
+          "title": "Maestro Mateus",
+          "description": "Sistema de gestão de rotinas e tarefas diárias para colaboradores de rede de supermercados.",
+          "thumbnail": "https://play-lh.googleusercontent.com/Q6af1uoiGbEzxZk3FQsgmS76s4NgIEy0mvrtr9bdku7QpQyegACRkVJAArGL1PeuOwM",
+          "technologies": [
+            "React Native",
+            "Firebase"
+          ],
+          "images": [
+            "https://play-lh.googleusercontent.com/tPZK5HpZXwaxrKouU7X-jajx0hhS-RuUlAjXHbcmrY3Pn4qqtaSnHlAy07hiOQlFAQ",
+            "https://play-lh.googleusercontent.com/kEKEa0n5shFtALPwe5LGhrVSEzFrh76IJE92rn1gS7AsLpAZ-otlJtV6K0Ui-5By1YM",
+            "https://play-lh.googleusercontent.com/CsCCAAmb2_BkDeVi3EvptZLHH7HY0Y2y1_83qcEbkpmw7JSqanXcSmFlgc1L2XpdQDk"
+          ],
+          "url": "https://www.linkedin.com/company/pulseoficial/",
+          "github": null,
+          "playstore": "https://play.google.com/store/apps/details?id=com.ithappens_piloto_app",
+          "appstore": null,
+          "year": 2019,
+          "types": [
+            "Mobile",
+            "Web"
+          ]
+        }
+      ]
+    },
+    "personal": {
+      "title": "GITHUB",
+      "items": [
+        {
+          "title": "origemjhanpoll.dev.br",
+          "description": "Portfólio profissional de Jean Paul, desenvolvedor mobile focado em criar soluções eficientes. O site apresenta habilidades, tecnologias, projetos e formas de contato em uma interface rápida e responsiva. O conteúdo é dinâmico, baseado em JSON e estruturado com React, TypeScript e Tailwind CSS v4.",
+          "url": "https://github.com/origemjhanpoll/origemjhanpoll.dev.br",
+          "github": "https://github.com/origemjhanpoll/origemjhanpoll.dev.br",
+          "markdown": "https://raw.githubusercontent.com/origemjhanpoll/origemjhanpoll.dev.br/main/README.md",
+          "technologies": [
+            "react",
+            "json",
+            "typescript",
+            "reactjs",
+            "portifolio",
+            "tawilwindcss",
+            "origemjhanpoll"
+          ],
+          "types": [
+            "Open Source"
+          ]
+        },
+        {
+          "title": "App GitUsers",
+          "description": "O projeto “Petize Challenge” é um teste onde desenvolvi um aplicativo em Flutter e Dart para mobile e web. Ele consome a API do GitHub para pesquisar usuários e exibir seus repositórios, com uma interface limpa e responsiva.",
+          "url": "https://github.com/origemjhanpoll/App-GitUsers",
+          "github": "https://github.com/origemjhanpoll/App-GitUsers",
+          "markdown": "https://raw.githubusercontent.com/origemjhanpoll/App-GitUsers/main/README.md",
+          "technologies": [
+            "dart",
+            "http",
+            "webview",
+            "mvvm",
+            "flutter",
+            "bloc",
+            "flutter-modular",
+            "origemjhanpoll"
+          ],
+          "types": [
+            "Open Source"
+          ]
+        },
+        {
+          "title": "App CepSearch",
+          "description": "Aplicativo Flutter para busca de CEPs brasileiros. Construído com Clean Architecture e Bloc, permite consultar endereços, visualizar detalhes no mapa e salvar CEPs para acesso offline.",
+          "url": "https://github.com/origemjhanpoll/App-CepSearch",
+          "github": "https://github.com/origemjhanpoll/App-CepSearch",
+          "markdown": "https://raw.githubusercontent.com/origemjhanpoll/App-CepSearch/main/README.md",
+          "technologies": [
+            "dart",
+            "http",
+            "ui",
+            "sharedpreferences",
+            "test",
+            "zipcodes",
+            "zipcode",
+            "flutter",
+            "bloc",
+            "ceps",
+            "origemjhanpoll"
+          ],
+          "types": [
+            "Open Source"
+          ]
+        },
+        {
+          "title": "App PostsFeed",
+          "description": "App Flutter de feed de posts minimalista, sem imagens, com funcionalidade offline. Utiliza MVVM, Bloc para gerenciamento de estado e shared_preferences para persistência de dados. Focado em performance e simplicidade para leitura.",
+          "url": "https://github.com/origemjhanpoll/App-PostsFeed",
+          "github": "https://github.com/origemjhanpoll/App-PostsFeed",
+          "markdown": "https://raw.githubusercontent.com/origemjhanpoll/App-PostsFeed/main/README.md",
+          "technologies": [
+            "android",
+            "dart",
+            "ios",
+            "offline",
+            "read",
+            "feed",
+            "post",
+            "flutter",
+            "origemjhanpoll"
+          ],
+          "types": [
+            "Open Source"
+          ]
+        },
+        {
+          "title": "App Criptomoedas",
+          "description": "Este é um aplicativo Flutter para exibição de informações sobre criptomoedas, utilizando a arquitetura MVVM e o padrão Bloc para gerenciamento de estado. O app oferece uma interface modularizada, seguindo o padrão Atomic Design, e integra-se com APIs externas para obter dados em tempo real.",
+          "url": "https://github.com/origemjhanpoll/App-Criptomoedas",
+          "github": "https://github.com/origemjhanpoll/App-Criptomoedas",
+          "markdown": "https://raw.githubusercontent.com/origemjhanpoll/App-Criptomoedas/main/README.md",
+          "technologies": [
+            "dart",
+            "http",
+            "crypto",
+            "websocket",
+            "localstorage",
+            "fluuter",
+            "origemjhanpoll"
+          ],
+          "types": [
+            "Open Source"
+          ]
+        },
+        {
+          "title": "App Cards",
+          "description": "Aplicativo Flutter que exibe uma lista de cartões do cliente, permitindo visualizar transações e informações relevantes de cada cartão. Desenvolvido com MVVM e Atomic Design, utilizando Provider para gerenciamento de estado.",
+          "url": "https://github.com/origemjhanpoll/App-Cards",
+          "github": "https://github.com/origemjhanpoll/App-Cards",
+          "markdown": "https://raw.githubusercontent.com/origemjhanpoll/App-Cards/main/README.md",
+          "technologies": [
+            "android",
+            "dart",
+            "http",
+            "ios",
+            "test",
+            "mvvm",
+            "atomic-design",
+            "flutter",
+            "mvvm-architecture",
+            "test-ui",
+            "origemjhanpoll"
+          ],
+          "types": [
+            "Open Source"
+          ]
+        },
+        {
+          "title": "App MotelsNearby",
+          "description": "Flutter Motels Nearby é um aplicativo que exibe motéis próximos, suas suítes e os valores das estadias. Desenvolvido em Flutter, utiliza MVVM como arquitetura e Atomic Design para organização da UI, garantindo um código modular e escalável.",
+          "url": "https://github.com/origemjhanpoll/App-MotelsNearby",
+          "github": "https://github.com/origemjhanpoll/App-MotelsNearby",
+          "markdown": "https://raw.githubusercontent.com/origemjhanpoll/App-MotelsNearby/main/README.md",
+          "technologies": [
+            "Dart",
+            "dart",
+            "mvvm",
+            "atomic-design",
+            "flutter",
+            "origemjhanpoll"
+          ],
+          "types": [
+            "Open Source"
+          ]
+        },
+        {
+          "title": "App YandehExpress",
+          "description": "Yandeh Challenge: app Flutter com listagem de produtos, Atomic Design, Clean Architecture e princípios SOLID.",
+          "url": "https://github.com/origemjhanpoll/App-YandehExpress",
+          "github": "https://github.com/origemjhanpoll/App-YandehExpress",
+          "markdown": "https://raw.githubusercontent.com/origemjhanpoll/App-YandehExpress/main/README.md",
+          "technologies": [
+            "Dart",
+            "solid",
+            "clean-architecture",
+            "atomic-design",
+            "solid-principles",
+            "origemjhanpoll"
+          ],
+          "types": [
+            "Open Source"
+          ]
+        }
+      ]
+    },
+    "translations": {
+      "availableInStores": "Disponível nas lojas",
+      "screenshots": "Screenshots",
+      "technologies": "Tecnologias",
+      "selectProject": "Selecione um projeto para ver os detalhes",
+      "back": "Voltar",
+      "filterAll": "Todos",
+      "noProjectsFound": "Nenhum projeto encontrado"
+    }
+  },
+  "social": {
+    "links": [
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/origemjhanpoll",
+        "label": "LinkedIn"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/origemjhanpoll",
+        "label": "Github"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/origemjhanpoll",
+        "label": "Instagram"
+      },
+      {
+        "name": "Telegram",
+        "url": "https://t.me/origemjhanpoll",
+        "label": "Telegram"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "description": "Estou sempre aberto a novas oportunidades e colaborações. Sinta-se à vontade para entrar em contato através de qualquer um dos canais abaixo:",
+    "contact_items": [
+      {
+        "title": "Email",
+        "value": "origemjhanpoll@gmail.com",
+        "icon": "email",
+        "url": "mailto:origemjhanpoll@gmail.com",
+        "type": "email"
+      },
+      {
+        "title": "WhatsApp",
+        "value": "+55 (98) 99139-1108",
+        "icon": "whatsapp",
+        "url": "https://api.whatsapp.com/send/?phone=5598991391108",
+        "type": "whatsapp"
+      },
+      {
+        "title": "LinkedIn",
+        "value": "origemjhanpoll",
+        "icon": "linkedin",
+        "url": "https://www.linkedin.com/in/origemjhanpoll",
+        "type": "linkedin"
+      },
+      {
+        "title": "GitHub",
+        "value": "origemjhanpoll",
+        "icon": "github",
+        "url": "https://github.com/origemjhanpoll",
+        "type": "github"
+      }
+    ]
+  }
+}
