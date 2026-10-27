@@ -258,9 +258,9 @@
           ]
         },
         {
-          "title": "Gupy EduCorp",
+          "title": "Gupy Treinamento",
           "description": "企业教育平台，具有游戏化、排名、积分和互动测验功能，用于员工培训。",
-          "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/5c/d2/575cd282-7fea-b019-2566-4edbc5375a59/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/217x0w.webp",
+          "thumbnail": "https://play-lh.googleusercontent.com/eFY89cRvNUh-xfi-bY2aKQgPq5yXlHMSHRKUzTRxQhDNJGqo8MfTofIdA6dM4jaiAbIr8k1aLPPRBBjvoZuU=w480-h960-rw",
           "technologies": [
             "Flutter",
             "Dart",
@@ -268,9 +268,9 @@
             "Codemagic"
           ],
           "images": [
-            "https://play-lh.googleusercontent.com/Vey5GE62pfmHe9f7yOgfLwg-1ZFVx5CbP0rz5xcJ52DkSwR1GRNBkZkMUFqsDEFW0pU",
-            "https://play-lh.googleusercontent.com/kF08zTJcjcpWcff14M7V6mK2-vCwdAWUi5B_pzVRzeZxF4i7-6K7oIWIz9Q9tGuAuzo",
-            "https://play-lh.googleusercontent.com/Fj4zrwjdBzRjVFG7Vbnnlz-WW9GBlQBRPxp7oRnu2Ttpu-c5j4Rs3OvqLFlNqrEFPtM"
+            "https://play-lh.googleusercontent.com/dgdCcMPVYfAfDL7xXuvKmvm1Ev9FuuhZ165WsewXNIrSiWQMqeJLzaBFYm9WQgasf7eFM1QC-GkFk11Pv_PSTQ=w2560-h1440-rw",
+            "https://play-lh.googleusercontent.com/VoXyUo0AFo2nCyfh_YTEQSMEsI4qAs1eTwYrm6LfGlTOSP5CgMNkGAizQTPjR-Sx28p96VVDTX2xktFlFp0Z=w2560-h1440-rw",
+            "https://play-lh.googleusercontent.com/fI37lmy7Ov0gg1Bj5I-1NSyXhBwhVHz-6AHl198OggyR4vysB5Xo9SYppyKA7jn38OZPK90OPJPZJw0dfRKG=w2560-h1440-rw"
           ],
           "url": "https://www.gupy.io/plataforma-de-educacao-corporativa",
           "github": null,
@@ -285,20 +285,23 @@
         {
           "title": "Maestro Mateus",
           "description": "超市连锁员工的日常任务管理系统。",
-          "thumbnail": "https://play-lh.googleusercontent.com/Q6af1uoiGbEzxZk3FQsgmS76s4NgIEy0mvrtr9bdku7QpQyegACRkVJAArGL1PeuOwM",
+          "thumbnail": "https://play-lh.googleusercontent.com/mxX1_38UO3UtbQN002IBWpZK_iQdBPljtBmgC2bUN2KtFSP__4NnL01PcHBlKxJFrWlO6I4UVWeqHBWf1S5AyA=w240-h480-rw",
           "technologies": [
             "React Native",
             "Firebase"
           ],
           "images": [
-            "https://play-lh.googleusercontent.com/tPZK5HpZXwaxrKouU7X-jajx0hhS-RuUlAjXHbcmrY3Pn4qqtaSnHlAy07hiOQlFAQ",
-            "https://play-lh.googleusercontent.com/kEKEa0n5shFtALPwe5LGhrVSEzFrh76IJE92rn1gS7AsLpAZ-otlJtV6K0Ui-5By1YM",
-            "https://play-lh.googleusercontent.com/CsCCAAmb2_BkDeVi3EvptZLHH7HY0Y2y1_83qcEbkpmw7JSqanXcSmFlgc1L2XpdQDk"
+            "https://play-lh.googleusercontent.com/WGaMdsrInmFOKyeVk-qH55K6WFTMoWnPIuk--awA7GwbLRpvTnQ2UihWYAL2fc3G7CbNAy2maoTp6QJACebncg=w2560-h1440-rw",
+            "https://play-lh.googleusercontent.com/CHEBL4AT2kCenHAFNblcdcAisZZ-FppwqRJmRG0xv3exIjlz3iDx8_e12rIUSws85aujux7nBuUKVMMNk815=w2560-h1440-rw",
+            "https://play-lh.googleusercontent.com/TYSj-6kZdFyMdOl5IEztqmSmWL4ijum5fCLaImB-elZLX6FVS6Vs7bbLGWXdd_mt2fhHjZBRgtIYGR8FzZbqZ3M=w2560-h1440-rw",
+            "https://play-lh.googleusercontent.com/VJW_fvyg9Iw1ZDJQIaLC1SKYwSVseETDVsFJbHR_8mBCSk4CEK1l7NZ2xCsPEp88GotalA2T2N-dNEr_Vo7RVVI=w2560-h1440-rw",
+            "https://play-lh.googleusercontent.com/SFDmMbZDG_Ry62UELUqoDmDGNQe5kvDrqP7gxfeIAL_-UQ2NqW3BZur2E3CmN6YWcSOPohpapG75n8nyGXyiJCg=w2560-h1440-rw",
+            "https://play-lh.googleusercontent.com/VYtb6Rd4Z4Y5QhnSkIDOJ79836xkBPaY-04AAgrwvTZA3RZO2qYjz9oiesMuXXN0PIgvh60Fj2oXh93scGOz=w2560-h1440-rw"
           ],
           "url": "https://www.linkedin.com/company/pulseoficial/",
           "github": null,
           "playstore": "https://play.google.com/store/apps/details?id=com.ithappens_piloto_app",
-          "appstore": null,
+          "appstore": "https://apps.apple.com/br/app/maestro-app/id1411399177",
           "year": 2019,
           "types": [
             "Mobile",
