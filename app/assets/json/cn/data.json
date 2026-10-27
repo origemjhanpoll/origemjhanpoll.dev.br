@@ -114,11 +114,11 @@
     "buttons": [
       {
         "text": "联系我",
-        "url": "https://api.whatsapp.com/send/?phone=5598991391108"
+        "url": "https://wa.me/origemjhanpoll"
       },
       {
         "text": "简历",
-        "url": "https://drive.google.com/file/d/1J75O4x0e6geaZ1Y8wvct3ZmNAmYjTuDM/view?usp=sharing"
+        "url": "https://drive.google.com/file/d/13Ntzj2bxbqMu-10UHMclGxHGuCdPIrS3/view?usp=sharing"
       }
     ],
     "localTimeLabel": "当地时间",
@@ -522,7 +522,7 @@
         "title": "WhatsApp",
         "value": "+55 (98) 99139-1108",
         "icon": "whatsapp",
-        "url": "https://api.whatsapp.com/send/?phone=5598991391108",
+        "url": "https://wa.me/origemjhanpoll",
         "type": "whatsapp"
       },
       {

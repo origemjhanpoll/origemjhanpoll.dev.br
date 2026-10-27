@@ -114,11 +114,11 @@
     "buttons": [
       {
         "text": "Entre em contato",
-        "url": "https://api.whatsapp.com/send/?phone=5598991391108"
+        "url": "https://wa.me/origemjhanpoll"
       },
       {
         "text": "CV",
-        "url": "https://drive.google.com/file/d/1Nm4ugeeGamnlYLSeX8S1lXnqWI1Xck7p/view?usp=sharing"
+        "url": "https://drive.google.com/file/d/1zDF9440hBP6oQW6bizfTJblnTcnCYeyq/view?usp=sharing"
       }
     ],
     "localTimeLabel": "Horário Local",
@@ -522,7 +522,7 @@
         "title": "WhatsApp",
         "value": "+55 (98) 99139-1108",
         "icon": "whatsapp",
-        "url": "https://api.whatsapp.com/send/?phone=5598991391108",
+        "url": "https://wa.me/origemjhanpoll",
         "type": "whatsapp"
       },
       {
