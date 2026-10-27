@@ -14,14 +14,14 @@ export interface ButtonProps
 export const Button: React.FC<ButtonProps> = ({
   icon,
   isFull,
-  color = "bg-[var(--color-primary)]",
+  color = "bg-(--color-primary)",
   label,
   outline = false,
   ...props
 }) => {
   const variant = outline
-    ? "border border-[var(--color-text-secondary)]/30 backdrop-blur-sm text-[var(--color-text-secondary)]"
-    : `${color} text-[var(--color-card-bg)]`;
+    ? "border border-(--color-text-secondary)/30 backdrop-blur-sm text-(--color-text-secondary)"
+    : `${color} text-(--color-card-bg)`;
 
   return (
     <button

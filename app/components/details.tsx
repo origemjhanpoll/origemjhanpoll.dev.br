@@ -28,7 +28,7 @@ const Details: React.FC<DetailsProps> = ({
   selectProject,
 }) => {
   return (
-    <section className="scrollbar-custom flex flex-1 w-full bg-[var(--color-card-bg)] rounded-3xl flex-col overflow-y-auto">
+    <section className="scrollbar-custom flex flex-1 w-full bg-(--color-card-bg) rounded-3xl flex-col overflow-y-auto">
       {project ? (
         <div className="flex flex-col gap-6 pt-4 md:pt-6 2xl:pt-8">
           <div className="flex flex-col items-center justify-start md:items-center md:flex-row gap-6 px-4 md:px-6 2xl:px-8">
@@ -40,10 +40,10 @@ const Details: React.FC<DetailsProps> = ({
               />
             )}
             <div className="flex flex-col items-center md:items-start">
-              <h1 className="text-4xl font-bold text-[var(--color-text-primary)] pb-2">
+              <h1 className="text-4xl font-bold text-(--color-text-primary) pb-2">
                 {project.title}
               </h1>
-              <p className="text-lg font-light text-center md:text-left text-[var(--color-text-secondary)] leading-relaxed">
+              <p className="text-lg font-light text-center md:text-left text-(--color-text-secondary) leading-relaxed">
                 {project.description}
               </p>
               {project.url && !project.github && (
@@ -53,7 +53,7 @@ const Details: React.FC<DetailsProps> = ({
                   rel="noopener noreferrer"
                   className="text-lg font-medium inline-flex items-center gap-2 mt-2 text-blue-400 hover:underline break-all"
                 >
-                  <FaExternalLinkAlt size={18} className="flex-shrink-0" />
+                  <FaExternalLinkAlt size={18} className="shrink-0" />
                   {project.url}
                 </a>
               )}
@@ -62,7 +62,7 @@ const Details: React.FC<DetailsProps> = ({
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 mt-6 px-6 py-4 bg-[var(--color-button-bg)] text-[var(--color-button-text)] rounded-lg hover:scale-105 active:scale-95 transition-transform duration-300"
+                  className="inline-flex items-center gap-2 mt-6 px-6 py-4 bg-(--color-button-bg) text-(--color-button-text) rounded-lg hover:scale-105 active:scale-95 transition-transform duration-300"
                 >
                   <FaGithub size={28} />
                   <span className="font-medium">Ver no GitHub</span>
@@ -103,7 +103,7 @@ const Details: React.FC<DetailsProps> = ({
           )}
           {project.images && project.images.length > 0 && (
             <div>
-              <h3 className="text-2xl font-semibold text-[var(--color-text-primary)] mb-3 px-4 md:px-6 2xl:px-8">
+              <h3 className="text-2xl font-semibold text-(--color-text-primary) mb-3 px-4 md:px-6 2xl:px-8">
                 {screenshots}
               </h3>
               <div className="flex flex-row gap-4 overflow-x-auto pb-2 px-4 md:px-6 2xl:px-8">
@@ -125,14 +125,14 @@ const Details: React.FC<DetailsProps> = ({
 
           {project.technologies && project.technologies.length > 0 && (
             <div className="mb-6">
-              <h3 className="text-2xl font-semibold text-[var(--color-text-primary)] mb-3 px-4 md:px-6 2xl:px-8">
+              <h3 className="text-2xl font-semibold text-(--color-text-primary) mb-3 px-4 md:px-6 2xl:px-8">
                 {technologies}
               </h3>
               <div className="flex flex-wrap gap-2 px-4 md:px-6 2xl:px-8">
                 {project.technologies.map((tech, index) => (
                   <span
                     key={index}
-                    className="border border-[var(--color-text-secondary)]/30 font-light px-4 py-1.5 rounded-full text-lg backdrop-blur-sm text-[var(--color-text-secondary)]"
+                    className="border border-(--color-text-secondary)/30 font-light px-4 py-1.5 rounded-full text-lg backdrop-blur-sm text-(--color-text-secondary)"
                   >
                     {tech}
                   </span>
@@ -143,7 +143,7 @@ const Details: React.FC<DetailsProps> = ({
         </div>
       ) : (
         <div className="flex flex-1 items-center justify-center w-full">
-          <p className="text-[var(--color-text-secondary)] text-center">
+          <p className="text-(--color-text-secondary) text-center">
             {selectProject}
           </p>
         </div>

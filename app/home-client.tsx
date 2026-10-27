@@ -41,7 +41,7 @@ const flags = [
 
 export function HomeView({
   locale = "pt",
-  currentYear = 2026,
+  currentYear = new Date().getFullYear(),
   onFlagClick,
   onProjectClick,
 }: {

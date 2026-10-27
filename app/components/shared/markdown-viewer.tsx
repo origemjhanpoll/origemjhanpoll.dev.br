@@ -42,10 +42,10 @@ export default function MarkdownViewer({ url }: MarkdownViewerProps) {
 
   if (!text) {
     return (
-      <div className="flex items-center justify-center min-h-[200px] w-full">
+      <div className="flex items-center justify-center min-h-50 w-full">
         <div className="flex flex-col items-center gap-4">
-          <div className="w-12 h-12 border-4 border-[white] border-t-[white] rounded-full animate-spin"></div>
-          <p className="text-[white] text-lg">Carregando...</p>
+          <div className="w-12 h-12 border-4 border-white border-t-white rounded-full animate-spin"></div>
+          <p className="text-white text-lg">Carregando...</p>
         </div>
       </div>
     );

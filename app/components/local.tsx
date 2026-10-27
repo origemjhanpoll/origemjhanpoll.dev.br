@@ -38,11 +38,11 @@ export const Local: React.FC<LocalProps> = ({ address, label }) => {
   return (
     <section
       id="local-section"
-      className="relative overflow-hidden bg-[var(--color-card-bg)] rounded-3xl"
+      className="relative overflow-hidden bg-(--color-card-bg) rounded-3xl"
     >
-      <div className="relative z-10 flex flex-col justify-center text-[var(--color-text-primary)] p-4 md:p-6 2xl:p-8 min-[64rem]:max-[1100px]:text-xs">
+      <div className="relative z-10 flex flex-col justify-center text-(--color-text-primary) p-4 md:p-6 2xl:p-8 lg:max-[1100px]:text-xs">
         {address && <h1 className="emibold">{address}</h1>}
-        <p className="text-[var(--color-text-secondary)] font-light">
+        <p className="text-(--color-text-secondary) font-light">
           {timeString} {label}
         </p>
       </div>
@@ -53,9 +53,9 @@ export const Local: React.FC<LocalProps> = ({ address, label }) => {
       />
       <div className="md:hidden xl:flex absolute top-1/2 right-[20%] -translate-y-1/2 items-center justify-center">
         <span className="relative flex size-8 items-center justify-center">
-          <span className="animate-ping absolute inline-flex size-8 rounded-full bg-[var(--color-primary)] opacity-75"></span>
+          <span className="animate-ping absolute inline-flex size-8 rounded-full bg-(--color-primary) opacity-75"></span>
           <span className="absolute inline-flex size-16 rounded-full bg-[radial-gradient(circle,var(--color-primary)_0%,transparent_80%)] opacity-20"></span>
-          <span className="relative inline-flex rounded-full size-4 bg-[var(--color-primary)]"></span>
+          <span className="relative inline-flex rounded-full size-4 bg-(--color-primary)"></span>
         </span>
       </div>
     </section>

@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { TikTok_Sans } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const tikTokSans = TikTok_Sans({
+const tikTokSans = localFont({
+  src: "./assets/fonts/TikTokSans-Variable.woff2",
   variable: "--font-tiktok-sans",
-  subsets: ["latin"],
-  adjustFontFallback: false,
+  display: "swap",
 });
 
 export const metadata: Metadata = {

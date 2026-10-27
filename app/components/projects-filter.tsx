@@ -41,7 +41,7 @@ const ProjectsFilter: React.FC<ProjectsFilterProps> = ({
   return (
     <div
       role="tablist"
-      className="flex w-fit max-w-full items-center gap-1 rounded-2xl bg-[var(--color-tag-bg)]/40 p-1"
+      className="flex w-fit max-w-full items-center gap-1 rounded-2xl bg-(--color-tag-bg)/40 p-1"
     >
       {options.map((option) => {
         const isActive = value === option.key;
@@ -55,8 +55,8 @@ const ProjectsFilter: React.FC<ProjectsFilterProps> = ({
             onClick={() => onChange(option.key)}
             className={`flex items-center justify-center rounded-xl p-2.5 transition-all duration-300 cursor-pointer ${
               isActive
-                ? "bg-[var(--color-button-bg)] text-[var(--color-button-text)] shadow-sm"
-                : "text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)]"
+                ? "bg-(--color-button-bg) text-(--color-button-text) shadow-sm"
+                : "text-(--color-text-secondary) hover:text-(--color-text-primary)"
             }`}
           >
             {option.icon}

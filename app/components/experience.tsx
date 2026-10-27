@@ -66,15 +66,15 @@ export const Experience: React.FC<ExperienceProps> = ({
   yearLabel,
   yearsLabel,
   items,
-  currentYear = 2026,
+  currentYear = new Date().getFullYear(),
 }) => {
   return (
     <section
       id="experience-section"
-      className="flex flex-1 flex-col bg-[var(--color-card-bg)] text-[var(--color-text-primary)] rounded-3xl overflow-hidden"
+      className="flex flex-1 flex-col bg-(--color-card-bg) text-(--color-text-primary) rounded-3xl overflow-hidden"
     >
       <div className="scrollbar-custom flex flex-1 flex-col md:overflow-y-auto p-4 md:p-6 2xl:p-8">
-        <h2 className="text-md font-medium text-[var(--color-text-secondary)] mb-6">
+        <h2 className="text-md font-medium text-(--color-text-secondary) mb-6">
           {title}
         </h2>
         <ol className="relative flex flex-col">
@@ -89,7 +89,7 @@ export const Experience: React.FC<ExperienceProps> = ({
                 {!isLast && (
                   <span
                     aria-hidden
-                    className="absolute top-14 bottom-2 left-6 -ml-px w-0 border-l-2 border-dotted border-[var(--color-text-tertiary)]"
+                    className="absolute top-14 bottom-2 left-6 -ml-px w-0 border-l-2 border-dotted border-(--color-text-tertiary)"
                   />
                 )}
 
@@ -113,16 +113,16 @@ export const Experience: React.FC<ExperienceProps> = ({
                       />
                     </div>
                   </div>
-                  <span className="min-w-0 text-lg font-semibold leading-tight text-[var(--color-text-primary)] transition-colors group-hover:text-[var(--color-text-secondary)]">
+                  <span className="min-w-0 text-lg font-semibold leading-tight text-(--color-text-primary) transition-colors group-hover:text-(--color-text-secondary)">
                     {item.companyFull ?? item.company}
                   </span>
                 </a>
 
                 <div className="pl-16">
                   {tenure && (
-                    <p className="text-sm font-light text-[var(--color-text-secondary)]">
+                    <p className="text-sm font-light text-(--color-text-secondary)">
                       {`${tenure.start} – ${tenure.endLabel}`}
-                      <span className="text-[var(--color-text-tertiary)]">
+                      <span className="text-(--color-text-tertiary)">
                         {` · ${tenure.years} ${
                           tenure.years === 1 ? yearLabel : yearsLabel
                         }`}
@@ -137,11 +137,11 @@ export const Experience: React.FC<ExperienceProps> = ({
                         className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5"
                       >
                         {item.roles.length > 1 && (
-                          <span className="shrink-0 text-sm font-light tabular-nums whitespace-nowrap text-[var(--color-text-tertiary)]">
+                          <span className="shrink-0 text-sm font-light tabular-nums whitespace-nowrap text-(--color-text-tertiary)">
                             {role.period}
                           </span>
                         )}
-                        <span className="text-sm font-light text-[var(--color-text-secondary)]">
+                        <span className="text-sm font-light text-(--color-text-secondary)">
                           {role.title}
                         </span>
                       </li>
