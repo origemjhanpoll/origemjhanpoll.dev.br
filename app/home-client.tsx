@@ -81,15 +81,17 @@ export function HomeView({
           currentYear={currentYear}
         >
           <Button
-            onClick={() => window.open(profileData.buttons[0].url, "_blank")}
+            href={profileData.buttons[0].url}
             icon={<FaWhatsapp size={24} />}
             label={profileData.buttons[0].text}
             isFull
           />
           <Button
-            onClick={() => window.open(profileData.buttons[1].url, "_blank")}
+            href={profileData.buttons[1].url}
             outline={true}
             icon={<MdOutlineFileDownload size={24} />}
+            aria-label={profileData.buttons[1].text}
+            title={profileData.buttons[1].text}
           />
         </Profile>
       </div>
@@ -101,14 +103,16 @@ export function HomeView({
         />
         <Main title={mainData.title} description={mainData.description}>
           <Button
-            onClick={() => window.open(profileData.buttons[0].url, "_blank")}
+            href={profileData.buttons[0].url}
             icon={<FaWhatsapp size={24} />}
             label={profileData.buttons[0].text}
           />
           <Button
-            onClick={() => window.open(profileData.buttons[1].url, "_blank")}
+            href={profileData.buttons[1].url}
             outline={true}
             icon={<MdOutlineFileDownload size={24} />}
+            aria-label={profileData.buttons[1].text}
+            title={profileData.buttons[1].text}
           />
         </Main>
         <Social

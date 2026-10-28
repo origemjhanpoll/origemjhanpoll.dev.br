@@ -24,7 +24,7 @@ export const Actions: React.FC<ActionsProps> = ({ listActions }) => {
       {listActions.map((action, index) => (
         <Button
           key={index}
-          onClick={() => window.open(action.url, "_blank")}
+          href={action.url}
           isFull={action.isFull}
           color={action.color}
           icon={action.icon}
