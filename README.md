@@ -12,7 +12,7 @@
 
 **Portfólio pessoal e profissional desenvolvido com foco em alta performance, interatividade e experiência do usuário.**
 
-[Visualizar Demonstração](https://origemjhanpoll.com.dev) • [Reportar Bug](https://github.com/origemjhanpoll/origemjhanpoll.com.dev/issues) • [Solicitar Recurso](https://github.com/origemjhanpoll/origemjhanpoll/issues)
+[Visualizar Demonstração](https://origemjhanpoll.dev.br) • [Reportar Bug](https://github.com/origemjhanpoll/origemjhanpoll.dev.br/issues) • [Solicitar Recurso](https://github.com/origemjhanpoll/origemjhanpoll.dev.br/issues)
 
 </div>
 
@@ -84,8 +84,8 @@ Certifique-se de ter instalado em sua máquina:
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/origemjhanpoll/origemjhanpoll.com.dev.git
-   cd origemjhanpoll.com.dev
+   git clone https://github.com/origemjhanpoll/origemjhanpoll.dev.br.git
+   cd origemjhanpoll.dev.br
    ```
 
 2. **Instale as dependências:**
@@ -117,7 +117,7 @@ Certifique-se de ter instalado em sua máquina:
 O código-fonte da aplicação está estruturado dentro da pasta `app/`, seguindo os padrões do App Router do Next.js:
 
 ```
-origemjhanpoll.com.dev/
+origemjhanpoll.dev.br/
 ├── app/
 │   ├── assets/                       # Recursos estáticos e fontes de dados
 │   │   ├── fonts/                    # Tipografia customizada (TikTokSans)
