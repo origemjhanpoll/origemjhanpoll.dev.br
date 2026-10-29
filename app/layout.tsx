@@ -9,6 +9,7 @@ const tikTokSans = localFont({
 });
 
 export const metadata: Metadata = {
+  referrer: "no-referrer-when-downgrade",
   title: "Jean Paul — Mobile Developer",
   description: "Veja meus projetos, serviços e soluções digitais.",
   openGraph: {

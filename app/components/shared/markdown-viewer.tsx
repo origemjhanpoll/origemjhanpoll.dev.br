@@ -56,16 +56,67 @@ export default function MarkdownViewer({ url }: MarkdownViewerProps) {
       <ReactMarkdown
         rehypePlugins={[rehypeRaw]}
         components={{
-          img: (props) => {
+          div: ({ node, ...props }) => {
+            const isCenter = (props as { align?: string }).align === "center";
+            return (
+              <div
+                {...props}
+                className={`${isCenter ? "text-center " : ""}${props.className || ""}`.trim()}
+              />
+            );
+          },
+          p: ({ node, ...props }) => {
+            return (
+              <p
+                {...props}
+                className={`my-3 leading-relaxed ${props.className || ""}`.trim()}
+              />
+            );
+          },
+          a: ({ node, ...props }) => {
+            return (
+              <a
+                {...props}
+                className={`no-underline hover:underline ${props.className || ""}`.trim()}
+              />
+            );
+          },
+          img: ({ node, ...props }) => {
             let src = typeof props.src === "string" ? props.src : undefined;
             if (src && !src.startsWith("http")) {
               src = `${baseUrl}${src}`;
             }
+
+            const isBadge = Boolean(
+              src &&
+                (src.includes("shields.io") ||
+                  src.includes("/badge/") ||
+                  src.includes("badge") ||
+                  src.includes("badgen.net") ||
+                  props.alt?.toLowerCase().includes("badge") ||
+                  props.alt?.toLowerCase().includes("license"))
+            );
+
             const isGif = src?.toLowerCase().endsWith(".gif");
+
+            if (isBadge) {
+              return (
+                <img
+                  {...props}
+                  src={src}
+                  className="!inline-block !my-1 !mx-1 align-middle shadow-none rounded-none max-h-8 w-auto"
+                  alt={props.alt}
+                  title={props.alt}
+                  loading="lazy"
+                />
+              );
+            }
+
             return (
               <img
+                {...props}
                 src={src}
-                className={`max-w-full h-auto rounded-lg shadow-md block ${
+                className={`max-w-full h-auto rounded-lg shadow-md block my-4 mx-auto ${
                   isGif ? "w-[50%] sm:w-[30%] lg:w-[30%] object-contain" : ""
                 }`}
                 alt={props.alt}

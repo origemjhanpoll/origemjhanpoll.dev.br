@@ -36,7 +36,12 @@ const Details: React.FC<DetailsProps> = ({
               <img
                 src={project.thumbnail}
                 alt={project.title}
-                className="size-42 object-cover rounded-xl"
+                referrerPolicy="no-referrer"
+                className={
+                  project.github
+                    ? "w-full max-w-xs md:max-w-sm aspect-video object-cover rounded-xl shrink-0"
+                    : "size-42 object-cover rounded-xl shrink-0"
+                }
               />
             )}
             <div className="flex flex-col items-center md:items-start">
@@ -112,6 +117,7 @@ const Details: React.FC<DetailsProps> = ({
                     key={index}
                     src={image}
                     alt={`${project.title} screenshot ${index + 1}`}
+                    referrerPolicy="no-referrer"
                     className="w-full h-auto rounded-3xl object-cover"
                   />
                 ))}

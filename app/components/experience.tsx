@@ -104,6 +104,7 @@ export const Experience: React.FC<ExperienceProps> = ({
                       src={item.logo}
                       alt={`Logo ${item.company}`}
                       loading="lazy"
+                      referrerPolicy="no-referrer"
                       className="size-12 aspect-square shrink-0 rounded-xl bg-white object-contain p-1"
                     />
                     <div className="absolute inset-0 bg-black/60 rounded-xl flex items-center justify-center transition-all duration-300 opacity-0 group-hover:opacity-100">

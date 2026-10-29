@@ -169,6 +169,7 @@ const ProjectCard: React.FC<{
           <img
             src={imageSrc}
             alt={project.title}
+            referrerPolicy="no-referrer"
             className="size-20 object-cover rounded-xl"
           />
         ) : (
